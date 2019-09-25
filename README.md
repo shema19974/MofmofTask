@@ -1,42 +1,40 @@
-このリポジトリは、技術力テスト用のリポジトリです。
+## Overview of the applications you will develop
+Please implement CRUD of "Rental information property information".
+This is the repository of a source code of an application that has been "rails new". Please overwrite the code.
 
-## 開発するアプリケーションの概要
-賃貸情報物件情報画面のCRUDを実装お願い致します。既にrails newしただけのアプリケーションのソースコードがありますので、その上に実装してください。
+If you are accustomed to Ruby on Rails, we estimate that you can do it in 1-2 hours.
 
-Ruby on Railsに慣れている方であれば1〜2時間程度で出来るボリュームと見積もっております。
-
-## 開発環境
-### 言語・ミドルウェアなど
+## Development environment
+### Language, Middleware etc.
 - Ruby 2.3.1
 - Ruby on Rails 5.0.0
 - Sqlite
 
-### 納品の方法
-まず、このリポジトリをcloneして、ご自身のアカウント内にリポジトリを作成してください(publicで問題ありません)。このとき**必ずリポジトリ名を適当な名称に変更**しておいてください(例: rat-giraffe)。
+### Submission Methods
+First, clone this repository and create a repository in your own account (you can make the repository public). Be sure to change the repository name to an arbitrary name (eg rat-giraffe).
 
-新しいブランチを作り、その上で作業を行い、ご自身のリポジトリにpull requestを出してください(clone元にpull requestを出さないように注意ください)。
+Create a new branch, work on it, and create a pull request on your repository.(Please be careful not to submit a pull request to the clone source).
 
-そのpull requestのリンクをお知らせいただいて納品となります。
+Please inform us of the pull request link and the submission is completed.
 
-## 質疑について
-仕様に関する質疑は着手前・後一度だけ応対可能です。必要な事項はまとめてご質問ください。
+## About questions
+Questions regarding specifications are only allowed twice: Once before you start and once after you started. You may want to prepare a list of questions to ask all at once.
 
-## スケジュール
-テスト開始から1週間程度
+## Specification
+- A CRUD capture of the rental information property information is attached.
+  Please implement it as the capture shows.
+- The nearest station information may increase the number in future. 
+  Take the case into consideration when you implement.
+- No need to implement test code.
 
-## 仕様
-- 賃貸情報物件情報画面のCRUDのキャプチャをファイル添付します。キャプチャの通り実装をお願いします。
-- 最寄り駅情報は数を増やす可能性がありますので、考慮した実装をお願い致します。
-- テストコードの実装は不要です
+### index view
+[![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/7e3fb7e1c6de81c74c4838f677932273.png)](https://diveintocode.gyazo.com/7e3fb7e1c6de81c74c4838f677932273)
 
-### 一覧
-![index](https://cloud.githubusercontent.com/assets/1818925/20509523/91902df2-b0ac-11e6-9f3b-adce73dbedf8.png)
+### show view
+[![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/bb937ee082fc561653ead091f0a67553.png)](https://diveintocode.gyazo.com/bb937ee082fc561653ead091f0a67553)
 
-### 閲覧
-![show](https://cloud.githubusercontent.com/assets/1818925/20509520/918d29ae-b0ac-11e6-8310-15474fcd5633.png)
+### new view
+[![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/fa3a71a8f568e9c7345c9afe69782995.png)](https://diveintocode.gyazo.com/fa3a71a8f568e9c7345c9afe69782995)
 
-### 登録
-![new](https://cloud.githubusercontent.com/assets/1818925/20509522/918e87b8-b0ac-11e6-8f4b-5f8ba4945894.png)
-
-### 編集
-![edit](https://cloud.githubusercontent.com/assets/1818925/20509521/918df348-b0ac-11e6-8eef-6d2e7c833d9a.png)
+### edit view
+[![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/9df27c51f7354bcb12b429efbfc8db8c.png)](https://diveintocode.gyazo.com/9df27c51f7354bcb12b429efbfc8db8c)
