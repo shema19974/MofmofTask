@@ -18,9 +18,9 @@
     <% @properties.each do |property| %>
       <tr>
         <td><%= property.property %></td>
-        <td><%= property.rent %></td>
+        <td><%= property.rent %> Rwf</td>
         <td><%= property.address %></td>
-        <td><%= property.buildingAge %></td>
+        <td><%= property.buildingAge %> years</td>
         <td><%= property.remarks %></td>
         <td><%= link_to 'Show', property %></td>
         <td><%= link_to 'Edit', edit_property_path(property) %></td>
